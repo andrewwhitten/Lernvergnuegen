@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B2 German Quick Test</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Karla:wght@300;400;500;700&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="b2-german-quiz.css">
+</head>
+<body>
+<div class="app">
+  <div class="screen active" id="s-intro">
+    <div class="fi">
+      <div class="badge">Goethe B2 - Quick Assessment</div>
+      <h1>TEST<br><span>DEIN B2</span></h1>
+      <p class="desc">15 B2-level questions across 5 skill areas. About 8 minutes. Instant results with explanations.</p>
+      <div class="tags">
+        <span class="tag hi">Horen</span>
+        <span class="tag">Grammatik</span>
+        <span class="tag">Wortschatz</span>
+        <span class="tag">Leseverstehen</span>
+        <span class="tag">Redemittel</span>
+      </div>
+      <button class="btn-p" id="startBtn">START TEST</button>
+    </div>
+  </div>
+  <div class="screen" id="s-quiz">
+    <div class="qhdr">
+      <div class="ptrack"><div class="pfill" id="pfill"></div></div>
+      <div class="qcnt" id="qcnt">1 / 15</div>
+    </div>
+    <div id="qarea"></div>
+  </div>
+  <div class="screen" id="s-results">
+    <div class="fi">
+      <div class="sc-lbl">Your Score</div>
+      <div class="sc-big" id="scbig"></div>
+      <div class="vdict" id="vtext"></div>
+      <div class="vdesc" id="vdesc"></div>
+      <div class="csg" id="csg"></div>
+      <div class="bdn" id="bdn"></div>
+      <button class="btn-p" id="retryBtn">TRY AGAIN</button>
+    </div>
+  </div>
+</div>
+<script src="b2-german-quiz-questions.js"></script>
+<script src="b2-german-quiz-app.js"></script>
+</body>
+</html>

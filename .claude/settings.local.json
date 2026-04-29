@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.homestudies.ch)",
+      "WebFetch(domain:deutschlernerblog.de)",
+      "WebFetch(domain:www.schubert-verlag.de)",
+      "WebFetch(domain:www.german-course-vienna.com)",
+      "WebFetch(domain:www.germanlanguagepractice.com)",
+      "WebFetch(domain:prepmyfuture.com)",
+      "WebFetch(domain:grammatiktraining.de)"
+    ]
+  }
+}
